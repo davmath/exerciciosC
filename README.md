@@ -1,6 +1,7 @@
 # exerciciosC
 
 //[VETOR] Média entre cinco números------------------------------------------------------------------------------
+
 int main(int argc, char *argv[]) {
 	
 	int v[5] = {10, 20, 30, 40, 50};
@@ -15,6 +16,7 @@ int main(int argc, char *argv[]) {
 }
 
 //[MATRIZ] Percorrendo matriz-------------------------------------------------------------------------------------
+
 int main(int argc, char *argv[]) {
 	
 	int mat[3][3] = {{1, 2, 3},
@@ -40,6 +42,7 @@ int main(int argc, char *argv[]) {
 }
 
 //[FUNÇÃO] Função para ler o maior número---------------------------------------------------------------------------
+
 float maior (float num1, float num2){
 	
 	if(num1 > num2){
@@ -60,6 +63,7 @@ int main(int argc, char *argv[]) {
 }
 
 //[VETOR COM FUNÇÕES]-----------------------------------------------------------------------------------------------
+
 void imprime1(int v[], int n){
 	int i;
 	for(i=0;i<n;i++){
@@ -94,7 +98,8 @@ int main(int argc, char *argv[]) {
 	
 }
 
-[STRUCTS COM VETORES]---------------------------------------------------------------------------------------------------
+//[STRUCTS COM VETORES]---------------------------------------------------------------------------------------------------
+
 
 #include <stdio.h>
 #include <stdlib.h>
